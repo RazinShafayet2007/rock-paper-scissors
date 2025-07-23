@@ -23,13 +23,14 @@ p {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 50px;
   }
 
   h2,
   p {
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 600;
 
   }
 }
@@ -45,7 +46,7 @@ p {
 
 @media (max-width: 768px) {
   #point-container {
-    margin-top:80px;
+    margin-top: 40px;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -64,7 +65,7 @@ p {
     margin-top: auto;
     margin-bottom: auto;
   }
-  
+
 }
 
 #human-point {
@@ -76,6 +77,9 @@ p {
   margin-right: auto;
   font-size: 80px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -95,9 +99,10 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
 @media (max-width: 768px) {
   #human-pick {
-    font-size:18px;
+    font-size: 18px;
   }
 }
 
@@ -124,7 +129,7 @@ p {
     margin-bottom: auto;
     width: 165px;
   }
-  
+
 }
 
 #computer-point {
@@ -136,6 +141,9 @@ p {
   margin-right: auto;
   font-size: 80px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -158,7 +166,7 @@ p {
 
 @media (max-width: 768px) {
   #computer-pick {
-    font-size:18px;
+    font-size: 18px;
 
   }
 }
@@ -171,7 +179,7 @@ p {
 
 @media (max-width: 768px) {
   #buttons {
-    margin-top: 110px;
+    margin-top: 60px;
   }
 }
 
@@ -305,6 +313,7 @@ p {
 }
 
 @media (max-width: 768px) {
+
   .rock,
   .paper,
   .scissors {
